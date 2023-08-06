@@ -11,7 +11,7 @@ result = requests.get(api)
 result = json.loads(result.text)
 
 name = result['name']
-weather = result['weather'][0]['main']
+weather = result['description'][0]['main']
 temperature = result['main']['temp']
 
 print(name)
