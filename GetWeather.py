@@ -27,6 +27,6 @@ wind = result['wind']['speed']
 humidity = result['main']['humidity']
 
 col1, col2, col3 = st.columns(3)
-col1.metric("온도", temperature, "1.2 °F")
-col2.metric("바람", wind, "-8%")
-col3.metric("습기", humidity, "4%")
+col1.metric("온도", temperature)
+col2.metric("바람", wind)
+col3.metric("습기", humidity)
