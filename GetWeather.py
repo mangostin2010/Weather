@@ -5,11 +5,11 @@ import streamlit as st
 
 option = st.selectbox(
     '나라의 날씨',
-    ('Korea', 'Philippines'))
+    ('Korea / Suwon', 'Philippines / Tacloban'))
 
-if option == "Korea":
+if option == "Korea / Suwon":
     city = "Suwon" #도시
-elif option == "Philippines":
+elif option == "Philippines / Tacloban":
     city = "Tacloban"
 
 apiKey = "714b1ecad9eaa65fbd2818d147b3bc89"
