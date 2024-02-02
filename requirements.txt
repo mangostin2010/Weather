@@ -1,0 +1,5 @@
+streamlit-js-eval
+streamlit
+geopy
+streamlit-extras
+pillow
