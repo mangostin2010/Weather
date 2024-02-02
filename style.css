@@ -1,0 +1,86 @@
+.st-emotion-cache-1r6slb0, .st-emotion-cache-12w0qpk, .st-emotion-cache-8eap7d {
+    /*background: linear-gradient(45deg, rgb(134, 134, 255), rgb(136, 255, 255));*/
+    
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 3% 0% 3% 7%;
+
+
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.st-emotion-cache-keje6w {
+    width: calc(50% - 1rem);
+    flex: 1 1 calc(50% - 1rem);
+    padding: 2% 0% 2% 7%;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+
+.st-emotion-cache-1wivap2 {
+    overflow-wrap: normal;
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: "Source Sans Pro", sans-serif;
+    line-height: normal;
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/* Background */
+.st-emotion-cache-uf99v8 {
+    position: absolute;
+    inset: 0px;
+    background: url("https://t1.daumcdn.net/cfile/tistory/136353164B1DB83F06");
+    background-size: cover;
+    background-position: center; /* Center the image */
+}
+
+
+/* Background for mobile */
+@media (max-width: 768px) {
+    .st-emotion-cache-uf99v8 {
+        position: absolute;
+        inset: 0px;
+        background: url("https://upload.wikimedia.org/wikipedia/commons/9/95/Skyshot.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    /*-webkit-text-stroke: 1px rgb(79, 155, 255)*/
+}
+
+
+
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+
+.block-container {
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+}
+
+/* .st-emotion-cache-ocqkz7 {gap: 0.5rem;}
