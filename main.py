@@ -48,7 +48,7 @@ api = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={apiKey}&
 result = requests.get(api)
 result = json.loads(result.text)
 
-name = result['name']
+# name = result['name']
 weather = result['weather'][0]['description']
 temperature = result['main']['temp']
 wind = result['wind']['speed']
