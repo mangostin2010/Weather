@@ -18,7 +18,7 @@ try:
 
     # Extract city information
     city = locname.raw.get('address', {}).get('city', 'City not found')
-
+    city
 except TypeError:
     #st.success('Please wait. You location information is getting.')
     city = '수원시'
